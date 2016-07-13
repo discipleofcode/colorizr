@@ -37,9 +37,10 @@ puts "Wait, frogs?!".blue
 
 and so on - just use color from available colors as method name
 
+```
+
 See [examples.rb](https://github.com/discipleofcode/colorizr/blob/master/examples.rb) for in-code usage
 
-```
 ## Installation
 
 Install it
