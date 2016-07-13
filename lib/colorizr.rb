@@ -16,4 +16,10 @@ class String
     CONST_COLORS.keys
   end
   
+  def self.create_colors
+    CONST_COLORS.each do |color, code|
+      self.send(:define_method, "#{color}") { "\e[#{code}m#{self}\e[0m" }
+    end
+  end
+  
 end
