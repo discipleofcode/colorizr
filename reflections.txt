@@ -1,0 +1,24 @@
+>> How does your gem take advantage of Ruby’s metaprogramming capabilities?
+
+creating methods from array items - no need to create it manually for each item
+so our code is DRY
+adding a new method is so easy - just add new item in an array (name: color_code)
+
+>> How long did you spend working on this project? 
+about 3.5hr
+
+>> What was the most rewarding challenge you conquered? 
+Well i've lost like 40 minutes because I didnt add self. before method name and somehow
+I didn't know that I need to build gem again each time I update its code. It was very frustrating
+but now I won't forget it :P
+
+Metaprogramming is really interesting as a junior php developer I had situations that would make it very
+useful (like creating function with given dynamic name) but I didn't know it is possible.
+Unfortunatelly you need to implement it in php yourself, ive just found some snippet ->
+https://gist.github.com/CHH/1180947 and I'm really happy now that I decided to learn Ruby and
+possibly switch to it :D
+
+>> Where do you still have room to grow?
+I just brushed up on Metaprogramming a little bit. It still feels a little bit overwhelming.
+Guess I need to just play around it.
+
